@@ -1,0 +1,424 @@
+:root {
+    --black: #0C0F15;
+    --graylight: #d6d6d6;
+    --red: #BC0000;
+    --white: #FFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: var(--black);
+    color: var(--white);
+    padding: 100px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+img,
+a {
+    transition: opacity 3s ease-in-out;
+
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+p:hover,
+img:hover,
+a:hover {
+    opacity: 0;
+}
+
+/* NAVBAR----------------------------------------------------------------------------- */
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+
+}
+
+.container-nav ul {
+    display: flex;
+
+}
+
+.container-nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nav li {
+    margin-left: 80px;
+    list-style: none;
+
+}
+
+.container-nav a {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.container-nav h2 {
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid var(--white);
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+
+}
+
+.container-nav h2:hover {
+    background-color: var(--white);
+    color: var(--black);
+    opacity: 1;
+
+}
+
+.container-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.container-nav img,
+a {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.container-nav img:hover,
+a:hover {
+    opacity: 0;
+}
+
+/* Hero ------------------------------------------------- */
+
+
+.container-hero {
+    margin: 90px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+
+}
+
+.container-hero h1 {
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 20px;
+
+}
+
+.container-hero span {
+    color: var(--red);
+    font-size: 90px;
+}
+
+.container-hero p {
+    font-size: 20px;
+    padding-top: 20px;
+    width: 700px;
+    padding-left: 5px;
+    color: var(--graylight);
+    letter-spacing: 7px;
+    line-height: 30px;
+}
+
+.garis-hero1 {
+    border-top: 5px solid var(--graylight);
+    width: 200px;
+    margin-bottom: 20px;
+
+}
+
+.container-hero1 {
+
+    padding: 50px;
+    margin: 70px;
+    margin-left: 100px;
+    display: flex;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hero1 a {
+    font-weight: bold;
+    font-size: 70px;
+    color: var(--red);
+    letter-spacing: 0px;
+    margin-right: 30px;
+    border: 2px solid var(--red);
+    padding: 2px 20px;
+    line-height: 0.8;
+    border-radius: 50px;
+
+}
+
+.garis-hero2 {
+    border-bottom: 3px solid var(--graylight);
+    margin: 7px 0;
+    width: 200px;
+
+}
+
+
+.container-hero2 h2 {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+
+.container-hero2 h3 {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--red);
+    margin-left: 110px;
+}
+
+/* About -------------------------------------------------*/
+
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    padding-top: 80px;
+}
+
+.container-about h1 {
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+.container-about a {
+    color: var(--red);
+    letter-spacing: 0px;
+}
+
+.container-about span {
+    font-size: 40px;
+    color: var(--red);
+}
+
+.container-about p {
+    margin-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--graylight);
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+/* About -------------------------------------------------*/
+
+.container-skill {
+    display: flex;
+    flex-direction: column;
+    padding-top: 260px;
+    margin-bottom: 400px;
+}
+
+.container-skill2 {
+    display: flex;
+}
+
+.container-skill h1 {
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+.container-skill2 a {
+    color: var(--red);
+    letter-spacing: 0px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.container-skill2 span {
+    
+    font-size: 40px;
+    color: var(--red);
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+.container-skill p {
+  
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--graylight);
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+
+.container-skill3 {
+    display: flex;
+    padding: 200px;
+    padding-top: 30px;
+    padding-left: 110px;
+}
+.blog {
+border: 2px solid var(--graylight);
+border-right: 15px solid var(--graylight);
+margin: 60px;
+}
+
+.blog img {
+    width: 300px;
+    height: auto;
+}
+
+.container-skill3 h1 {
+    border-top: 5px solid var(--graylight);
+    padding-top: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.container-skill3 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+    margin-top: 0px;
+    color: var(--red);
+}
+
+.container-skill4 {
+    margin-top: -100px;
+    margin-bottom: 600px;
+}
+
+.container-skill4 a {
+    font-weight: bold;
+    font-size: 70px;
+    color: var(--red);
+    letter-spacing: 0px;
+    margin-right: 30px;
+    border: 2px solid var(--red);
+    padding: 2px 50px;
+    line-height: 0.3;
+    border-radius: 50px;
+    
+
+}
+
+/* Contact-------------------------------------- */
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+
+.sc-contact {
+    display: flex;
+}
+.container-contact img {
+    height: 30px ;
+    width: auto;
+    margin: 30px;
+}
+
+.container-contact h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.container-contact1 {
+    display: flex;
+    border: 2px solid var(--graylight);
+    border-right: 15px solid var(--white);
+    border-left: 15px solid var(--graylight);
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background-color: var(--graylight);
+    padding: 20px;
+
+}
+
+.contact-box input {
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+    background-color: var(--black);
+    letter-spacing: 5px;
+    border-left: 15px solid var(--white);
+    color: var(--white);
+}
+
+.contact-box button {
+    letter-spacing: 5px;
+    padding: 15px;
+    width: 40%;
+    border-left: 15px solid var(--black);
+}
+
+.link a {
+    font-weight: bold;
+    font-size: 70px;
+    color: var(--red);
+    letter-spacing: 0px;
+    margin-right: 30px;
+    border: 2px solid var(--red);
+    padding: 2px 50px;
+    line-height: 0.3;
+    border-radius: 50px;
+    
+
+}
